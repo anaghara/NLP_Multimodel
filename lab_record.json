@@ -1,0 +1,33 @@
+{
+    "patient_id": "DIA12345",
+    "name": "John Doe",
+    "age": 58,
+    "gender": "Male",
+    "test_date": "2025-04-07",
+    "lab_results": {
+        "HbA1c": {
+            "value": 8.2,
+            "unit": "%",
+            "reference_range": "4.0 - 5.6",
+            "flag": "High"
+        },
+        "Fasting Blood Sugar": {
+            "value": 145,
+            "unit": "mg/dL",
+            "reference_range": "70 - 99",
+            "flag": "High"
+        },
+        "Postprandial Blood Sugar": {
+            "value": 220,
+            "unit": "mg/dL",
+            "reference_range": "70 - 140",
+            "flag": "High"
+        },
+        "Creatinine": {
+            "value": 1.1,
+            "unit": "mg/dL",
+            "reference_range": "0.6 - 1.3",
+            "flag": "Normal"
+        }
+    }
+}
